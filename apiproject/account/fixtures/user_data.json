@@ -1,0 +1,23 @@
+[
+    {
+      "model": "account.User",
+      "pk": 23,
+      "fields": {
+        "email":"qweasdasz123123@gmail.com",  
+        "first_name": "John",
+        "last_name": "Lennon",
+        "company": "XYZ"
+        
+        }
+    },
+    {
+      "model": "account.User",
+      "pk": 24,
+      "fields": {
+        "email":"mnmnyzasdbc123123@gmail.com",  
+        "first_name": "Paul",
+        "last_name": "McCartney",
+        "company": "ABC"
+      }
+    }
+  ]

@@ -1,0 +1,15 @@
+{% autoescape off %}
+Hello {{ user }},
+
+
+ Please click on the below link :-
+ 
+ 
+{{ protocol }}://{{ domain }}{% url 'setpassword' token %} 
+
+
+Sincerely,
+
+Teams
+
+{% endautoescape %}
